@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ARTIFACT_DIR = os.path.join(BASE_DIR, "artifacts")
 SAMPLE_CSV_PATH = os.path.join(BASE_DIR, "sample_input", "example_input.csv")
 
-MODEL_PATH = os.path.join(ARTIFACT_DIR, "best_ann_forest.keras")
+MODEL_PATH = os.path.join(ARTIFACT_DIR, "deploy_ann_forest.h5")
 SCALER_PATH = os.path.join(ARTIFACT_DIR, "scaler.pkl")
 CLASSES_PATH = os.path.join(ARTIFACT_DIR, "classes.json")
 FEATURES_PATH = os.path.join(ARTIFACT_DIR, "feature_names.json")
